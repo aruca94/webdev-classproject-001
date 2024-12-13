@@ -49,13 +49,39 @@ hr {
 	border-color: #555555;
 }
 
+
+
+
 /* Layout */
 
-.container {
-	padding: 0;
+.main {
+	background-color: bisque;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1000px;
+	height: 100vh;
+}
+
+.quote {
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	/* padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1000px; */
+	background-color: yellow;
+	margin: auto;
+
+}
+
+.quote-card {
+	padding: 1rem;
 }
 
 /* Media Queries */
